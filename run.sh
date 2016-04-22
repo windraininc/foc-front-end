@@ -13,5 +13,5 @@ fi
 if [ -a /var/run/nginx.pid ]; then
     service nginx restart
 else
-    serive nginx start
+    service nginx start
 fi
